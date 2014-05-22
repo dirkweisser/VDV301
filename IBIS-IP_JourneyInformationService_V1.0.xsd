@@ -276,7 +276,7 @@
 	<!--++ AdditionalTextmessage ++-->
 	<xs:complexType name="JourneyInformationService.SetAdditionalTextMessageRequestStructure">
 		<xs:sequence>
-			<xs:element name="AdditionalTextMessage" type="IBIS-IP.string"/>
+			<xs:element name="AdditionalTextMessage" type="InternationalTextType"/>
 		</xs:sequence>
 	</xs:complexType>
 </xs:schema>
